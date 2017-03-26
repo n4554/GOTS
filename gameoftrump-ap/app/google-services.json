@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "371049103274",
+    "firebase_url": "https://game-of-trumps-56844294.firebaseio.com",
+    "project_id": "game-of-trumps-56844294",
+    "storage_bucket": "game-of-trumps-56844294.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371049103274:android:9b15818b472d8b14",
+        "android_client_info": {
+          "package_name": "com.whitedevs.gameoftrumps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371049103274-mv504auvci5tk8s4hcb0btom7hkt4jgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whitedevs.gameoftrumps",
+            "certificate_hash": "a45921899e607744c749b334f99df42802c8b464"
+          }
+        },
+        {
+          "client_id": "371049103274-gpg2jnt1r2virr3s3p05g6luhnbog5fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtW_EopH9XLvbIRdu_ZT7NmliDpcAZu_A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371049103274-gpg2jnt1r2virr3s3p05g6luhnbog5fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

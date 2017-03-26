@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueBg"
+    android:layout_marginTop="@dimen/_50sdp"
+    android:id="@+id/popupFrameLayout2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/icon_car"
+        android:textSize="@dimen/_80sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/txtcar"
+        android:textColor="@color/colorStars"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/transparent_white_hex_11"
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/arrow"
+android:gravity="center"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_gravity="center"
+        android:text="@string/icon_arrow"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find it to WIN!"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:textSize="@dimen/_14sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/transparent_white_hex_11"/>
+
+</FrameLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/_43sdp"
+    android:background="@color/blueBg"
+    >
+
+
+  <TextView
+      android:layout_width="@dimen/_100sdp"
+      android:layout_height="@dimen/_33sdp"
+      android:id="@+id/sqbg"
+      android:layout_gravity="left"
+      android:gravity="left"
+      android:layout_marginLeft="@dimen/_50sdp"
+      android:layout_marginTop="@dimen/_10sdp"
+      android:layout_marginBottom="@dimen/_10sdp"
+      android:background="@drawable/roundbg"
+      android:onClick="onGGP"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_gravity="left"
+    android:gravity="left"
+    android:id="@+id/game"
+android:layout_marginLeft="@dimen/_60sdp"
+    android:textSize="@dimen/_30sdp"
+    android:textColor="@color/colorCloud"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_height="wrap_content"
+    android:text="@string/icon_game"/>
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_marginLeft="@dimen/_100sdp"
+      android:id="@+id/tvUserName"
+      android:layout_gravity="left"
+      android:layout_marginTop="@dimen/_20sdp"
+      android:textColor="@color/common_google_signin_btn_text_dark_default"
+      android:textSize="@dimen/_10sdp"
+      android:layout_height="wrap_content"
+      android:text="username"/>
+  <TextView
+      android:layout_width="@dimen/_100sdp"
+      android:layout_height="@dimen/_33sdp"
+      android:id="@+id/sqbg2"
+
+      android:layout_marginTop="@dimen/_10sdp"
+      android:layout_marginBottom="@dimen/_10sdp"
+      android:layout_marginRight="@dimen/_20sdp"
+      android:layout_gravity="right"
+      android:gravity="right"
+      android:background="@drawable/roundbg"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/icon_star"
+      android:id="@+id/star"
+      android:textSize="@dimen/_20sdp"
+      android:layout_gravity="right"
+      android:gravity="right"
+      android:layout_marginRight="@dimen/_100sdp"
+      android:textColor="@color/colorStars"
+      android:layout_marginTop="@dimen/_15sdp"
+      android:layout_marginBottom="@dimen/_5sdp"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="0"
+      android:id="@+id/starsNo"
+
+      android:textSize="@dimen/_16sdp"
+      android:layout_gravity="right"
+      android:gravity="right"
+      android:layout_marginRight="@dimen/_60sdp"
+      android:textColor="@color/colorStars"
+      android:layout_marginTop="@dimen/_15sdp"
+      android:layout_marginBottom="@dimen/_5sdp"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/icon_plus"
+      android:id="@+id/pl"
+
+      android:textSize="@dimen/_16sdp"
+      android:layout_gravity="right"
+      android:gravity="right"
+      android:layout_marginRight="@dimen/_30sdp"
+      android:textColor="@color/colorStars"
+      android:layout_marginTop="@dimen/_18sdp"
+      android:layout_marginBottom="@dimen/_5sdp"/>
+</FrameLayout>

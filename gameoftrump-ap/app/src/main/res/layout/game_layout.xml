@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueBg"
+
+    android:id="@+id/frameMain">
+    <include layout="@layout/top"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        >
+        <TableLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_gravity="center"
+            android:id="@+id/TableLayout03" >
+
+            <TableRow android:id="@+id/TableRow02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+            </TableRow><TableRow android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:gravity="center">
+        </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <include layout="@layout/popup2"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom" />
+    <include layout="@layout/footer"/>
+</FrameLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:paddingLeft="@dimen/_5sdp"
+    android:id="@+id/levelmain"
+    android:paddingRight="@dimen/_5sdp"
+    android:background="@color/blueBg">
+    <include layout="@layout/top"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical"
+        tools:context="com.myapp.mehrnaz.appapp.Lev">
+        <!--<Button-->
+        <!--android:id="@+id/cardicon"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/_45sdp" />-->
+    </LinearLayout>
+    <include layout="@layout/popup"/>
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom" />
+    <include layout="@layout/footer"/>
+</FrameLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/blueBg">-->
+
+    <!--<include layout="@layout/top"/>-->
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/activity_main"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginTop="@dimen/_75sdp"-->
+    <!--android:orientation="vertical"-->
+    <!--&gt;-->
+
+
+    <!--<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/TableLayout03" >-->
+
+    <!--<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">-->
+    <!--<TextView-->
+    <!--android:id="@+id/cardicon"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:textSize="@dimen/_45sdp" />-->
+    <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+    <!--</LinearLayout>-->
+    <!--<include layout="@layout/footer"/>-->
+
+    <!--</FrameLayout>-->

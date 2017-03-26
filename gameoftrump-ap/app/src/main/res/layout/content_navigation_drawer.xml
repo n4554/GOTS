@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/root"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2196f3"
+    tools:context="com.whitedevs.gameoftrumps.Game"
+
+    >
+
+    <include layout="@layout/top"/>
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+
+
+        >
+
+
+
+        <!--<TextView-->
+            <!--android:layout_width="@dimen/_250sdp"-->
+            <!--android:layout_height="@dimen/_43sdp"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_100sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_2sdp"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_marginLeft="@dimen/_20sdp"-->
+
+            <!--android:text="@string/icon_square"-->
+            <!--android:id="@+id/txtsquare"/>-->
+        <!--menu fln hazf-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_26sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginLeft="@dimen/_7sdp"-->
+            <!--android:layout_marginTop="@dimen/_8sdp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/icon_menu"-->
+            <!--android:id="@+id/txtIconMenu"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_40sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginLeft="@dimen/_8sdp"-->
+            <!--android:layout_marginTop="@dimen/_8sdp"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/icon_star"-->
+            <!--android:id="@+id/txtstar"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_42sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_7sdp"-->
+            <!--android:layout_marginLeft="@dimen/_89sdp"-->
+            <!--android:textColor="@color/colorRedbg"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/icon_plus"-->
+            <!--android:id="@+id/txtplusbg"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_40sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_8sdp"-->
+            <!--android:layout_marginLeft="@dimen/_90sdp"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/icon_plus"-->
+            <!--android:id="@+id/txtplus"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="@dimen/_43sdp"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_101sdp"-->
+            <!--android:textStyle="bold"-->
+
+            <!--android:layout_marginTop="@dimen/_41sdp"-->
+            <!--android:textColor="@color/colorRedbg"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_marginLeft="@dimen/_51sdp"-->
+
+            <!--android:text="@string/icon_square"-->
+            <!--android:id="@+id/txtsquare2bg"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="@dimen/_43sdp"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_100sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_40sdp"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_marginLeft="@dimen/_53sdp"-->
+
+            <!--android:text="@string/icon_square"-->
+            <!--android:id="@+id/txtsquare2"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="@dimen/_43sdp"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_101sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_41sdp"-->
+            <!--android:textColor="@color/colorRedbg"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_marginLeft="@dimen/_103sdp"-->
+
+            <!--android:text="@string/icon_square"-->
+            <!--android:id="@+id/txtsquare3bg"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="@dimen/_43sdp"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_100sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="@dimen/_40sdp"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_marginLeft="@dimen/_103sdp"-->
+            <!--android:text="@string/icon_square"-->
+            <!--android:id="@+id/txtsquare3"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textSize="@dimen/_12sdp"-->
+
+
+            <!--android:layout_marginTop="@dimen/_60sdp"-->
+            <!--android:textColor="@color/colorGameName"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_marginLeft="@dimen/_83sdp"-->
+
+            <!--android:text="username..."-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:text="@string/icon_userplus"-->
+            <!--android:textColor="@color/colorRedbg"-->
+            <!--android:textSize="@dimen/_41sdp"-->
+            <!--android:gravity="left"-->
+            <!--android:id="@+id/txtUserPlusbg"-->
+            <!--android:layout_marginLeft="@dimen/_30sdp"-->
+            <!--android:layout_marginTop="@dimen/_45sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:text="@string/icon_userplus"-->
+            <!--android:textColor="@color/colorIcons"-->
+            <!--android:textSize="@dimen/_40sdp"-->
+            <!--android:gravity="left"-->
+            <!--android:id="@+id/txtUserPlus"-->
+            <!--android:layout_marginLeft="@dimen/_30sdp"-->
+            <!--android:layout_marginTop="@dimen/_45sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="bottom"-->
+
+            <!--android:textSize="@dimen/_220sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="center"-->
+            <!--android:rotation="90"-->
+            <!--android:text="@string/icon_play"-->
+            <!--android:id="@+id/iconplay4"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:textSize="@dimen/_50sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+android:layout_marginTop="@dimen/_50sdp"
+            android:gravity="left"
+            android:layout_marginBottom="@dimen/_150sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtcloud9"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:textSize="@dimen/_35sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginBottom="@dimen/_150sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtcloud10"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_150sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtgame"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_80sdp"
+            android:layout_marginBottom="@dimen/_150sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtcloud3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_40sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/_230sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtcloud2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+
+            android:layout_marginBottom="@dimen/_220sdp"
+            android:layout_marginTop="@dimen/_130sdp"
+            android:text="@string/icon_cloud"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/txtcloud8"/>
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textSize="@dimen/_52sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@color/colorRedbg"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_200sdp"-->
+            <!--android:layout_marginBottom="@dimen/_200sdp"-->
+
+            <!--android:text="@string/icon_playGame"-->
+            <!--android:id="@+id/txtIconPlaybg"/>-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_80sdp"
+            android:textStyle="bold"
+            android:textColor="@color/colorStars"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_190sdp"
+            android:layout_marginBottom="@dimen/_200sdp"
+
+            android:text="@string/icon_playGame"
+            android:id="@+id/txtIconPlay"/>
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:textSize="@dimen/_240sdp"-->
+            <!--android:textColor="@color/colorTriangle"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="@dimen/_200sdp"-->
+            <!--android:rotation="90"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="@string/icon_play"-->
+            <!--android:id="@+id/txticonplay2"/>-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_120sdp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_255sdp"
+            android:layout_marginBottom="@dimen/_120sdp"
+            android:text="@string/icon_setting"
+
+            android:id="@+id/txtIconSetting"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_120sdp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_255sdp"
+            android:layout_marginBottom="@dimen/_120sdp"
+            android:text="@string/icon_user"
+            android:id="@+id/txtIconUser"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:textSize="@dimen/_55sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+
+            android:gravity="left"
+            android:layout_marginTop="@dimen/_355sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtcloud4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_40sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_325sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtcloud5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_140sdp"
+            android:layout_marginTop="@dimen/_380sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtcloud6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold"
+            android:textColor="@color/blueCloud"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_345sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:text="@string/icon_cloud"
+            android:id="@+id/txtcloud7"/>
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:textSize="@dimen/_20sdp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginRight="@dimen/_80sdp"-->
+            <!--android:layout_marginTop="@dimen/_325sdp"-->
+            <!--android:layout_marginBottom="@dimen/_30sdp"-->
+            <!--android:text="@string/icon_cloud"-->
+            <!--android:id="@+id/txtcloud7"/>-->
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom" />
+    <include layout="@layout/footer"/>
+
+</FrameLayout>
